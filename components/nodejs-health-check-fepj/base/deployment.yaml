@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-health-check-fepj
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images-protected:2B3k--nodejs-health-check-fepj
+      - image: quay.io/redhat-appstudio-qe/test-images-protected@sha256:0ceb73456e0f361ef5ecf3b2a90e18d791cb2aff3ade445648cfaa124e32ad64
         name: my-nodejs
         ports:
         - containerPort: 3001
